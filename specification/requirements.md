@@ -437,7 +437,9 @@ This document outlines the comprehensive requirements for the Inventory Manageme
 | Name | String | Yes | Yes | 100 | Category name (e.g., Büro, Elektronik, Werkzeuge) |
 | Description | Text | No | No | 500 | Optional category description |
 | Date Created | Timestamp | Yes | No | - | Auto-generated creation date |
+| Date Modified | Timestamp | Yes | No | - | Auto-updated on modification |
 | Created By | FK | Yes | No | - | Reference to User who created |
+| Modified By | FK | No | No | - | Reference to User who last modified |
 
 ---
 
@@ -454,7 +456,9 @@ This document outlines the comprehensive requirements for the Inventory Manageme
 | Parent Location ID | FK | No | No | - | Reference to parent location (for hierarchical structure) |
 | Description | Text | No | No | 500 | Optional description |
 | Date Created | Timestamp | Yes | No | - | Auto-generated creation date |
+| Date Modified | Timestamp | Yes | No | - | Auto-updated on modification |
 | Created By | FK | Yes | No | - | Reference to User who created |
+| Modified By | FK | No | No | - | Reference to User who last modified |
 
 ---
 
